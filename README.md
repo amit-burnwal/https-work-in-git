@@ -2,17 +2,17 @@
 This repository to understand git https
 Commands for remote and example as mentioned below
 **git remote -v**
-**git remote set-url origin https://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@github.com/amit-burnwal/https-work-in-git.git
+**git remote set-url origin https://<token>@github.com/amit-burnwal/https-work-in-git.git
 **
 ubuntu@git-learn:~/https-work-in-git$ **git remote -v**
 origin  https://github.com/amit-burnwal/https-work-in-git.git (fetch)
 origin  https://github.com/amit-burnwal/https-work-in-git.git (push)
 
-ubuntu@git-learn:~/https-work-in-git$ git remote set-url origin https://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@github.com/amit-burnwal/https-work-in-git.git
+ubuntu@git-learn:~/https-work-in-git$ git remote set-url origin https://<token>@github.com/amit-burnwal/https-work-in-git.git
 
 ubuntu@git-learn:~/https-work-in-git$ git remote -v
-origin  https://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@github.com/amit-burnwal/https-work-in-git.git (fetch)
-origin  https://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@github.com/amit-burnwal/https-work-in-git.git (push)
+origin  https://<token>@github.com/amit-burnwal/https-work-in-git.git (fetch)
+origin  https://<token>@github.com/amit-burnwal/https-work-in-git.git (push)
 
 ubuntu@git-learn:~/https-work-in-git$ git status
 On branch main
